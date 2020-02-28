@@ -1,0 +1,19 @@
+query FeedResult {
+  characters {
+    results {
+      id
+      name
+      status
+      species
+      gender
+      image
+      type
+      origin{
+        name
+      }
+      location{
+        name
+      }
+    }
+  }
+}
